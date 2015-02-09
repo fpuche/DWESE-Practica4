@@ -1,0 +1,139 @@
+/*---------------------------------Fuentes----------------------------------*/
+@font-face {
+    font-family: "top";
+    src: url('../fuentes/top.eot');
+    src: url('../fuentes/top.woff') format('woff'), url('../fuentes/top.woff2') format('woff2'), url('../fuentes/top.ttf') format('truetype'), url('../fuentes/top.svg') format('svg');
+}
+@font-face {
+    font-family: "biko";
+    src: url('../fuentes/biko.eot');
+    src: url('../fuentes/biko.woff') format('woff'), url('../fuentes/biko.woff2') format('woff2'), url('../fuentes/biko.ttf') format('truetype'), url('../fuentes/biko.svg') format('svg');
+}
+body {
+    width: 100%;
+    height: 1300px;
+}
+#content {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+#menu{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/bg2.jpg);
+    background-repeat: repeat-y;
+    /*    background-size: cover;*/
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkitjustify-content: center;
+    justify-content: center;    
+}
+#meu-content{
+
+    height: 100%;
+    width: 53.6842%;
+    /*1020/1900*/
+    min-width: 1020px;
+    background: rgba(211, 181, 140, 0.7);
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}  
+
+#menu-content-fotos{
+    text-align: center;
+    margin: 5% auto;
+    height: 100%;
+}
+#menu-content-fotos a{
+    font-family: "biko";
+    font-size: 1.25em;
+    color: #150A09;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-bottom: 50%;
+}
+#menu-content-fotos h2{
+    font-family: "top";
+    text-decoration: none;
+    font-size: 1.875em;
+    /*26px/16px*/
+    color: #C21C1A;      
+}
+#admin-table{
+    position: absolute;
+    top:15%;
+     left:17%;
+width: 65%;
+margin: 5% auto;
+border:#C21C1A medium solid;
+    
+}
+#admin-table th{
+border:#245269 thin solid;   
+    font-family: "top";
+    text-decoration: none;
+    font-size: 1.3em;
+    /*26px/16px*/
+    color: #285e8e; 
+    text-align: center;
+    padding-top: 0.5%;
+    
+} 
+#admin-table td{
+     font-family: "biko";
+    font-size: 1.25em;
+    color: #5A3130;   
+}
+#admin-table a{
+       font-family: "biko";
+    font-size: 1.3em;
+    color: #5A3130; 
+/*    text-decoration: none;*/
+}
+.edit-button1{
+         font-family: "biko";
+    font-size: 1.3em;
+    color: #5A3130;  
+/*    text-decoration:none;*/
+    position: absolute;
+    left:17%;
+    padding: 0.5%;
+    margin:4% auto;
+    background-color: #E9C897;
+    border:#5A3130 solid thin;
+    
+}
+.edit-button2{
+         font-family: "biko";
+    font-size: 1.3em;
+    color: #5A3130;  
+/*    text-decoration:none;*/
+    position: absolute;
+    left:17%;
+    padding: 0.5%;
+    margin:5% auto;
+    background-color: #E9C897;
+    border:#5A3130 solid thin;    
+}
+
+#admin-fotos{
+padding-left: 4%;    
+    
+}
+.enlace-borrar{
+  margin-right: 5%;
+  margin-left: 2%;
+  color: black;
+    
+}
+
+
+
